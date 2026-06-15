@@ -1,0 +1,59 @@
+{
+  "singleContact": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@test.com",
+    "phone": "9999999999"
+  },
+
+  "multipleContacts": [
+    {
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alice@test.com",
+      "phone": "8888888888"
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Taylor",
+      "email": "bob@test.com",
+      "phone": "7777777777"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@test.com",
+      "phone": "9999999999"
+    }
+    
+  ],
+   "updatedContact" : [{
+      "name": "John Doe",
+      "email": "updated@test.com",
+      "phone": "1111111111"
+    }],
+    "addNotes": [{
+      "name": "John Doe",
+      "notes": "Automation Notes"
+    }],
+    "searchContact": [{
+      "name": "John Doe"
+    }],
+    "deleteContact": [{
+      "name": "John Doe"
+    }
+  ],
+    "searchByfield": [{
+      "field": "email",
+      "value": "test.com"
+    },
+    {
+      "field": "firstName",
+      "value": "Alice"
+    },
+    {
+      "field": "lastName",
+      "value": "Smith"
+    }]
+
+}

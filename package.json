@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3",
+    "cucumber-html-reporter": "^7.2.0",
+    "playwright": "^1.60.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "prepare:report": "node reports/prepare-report.js",
+    "test:cucumber": "cucumber-js",
+    "report:generate": "node reports/generate-report.js",
+    "test:report": "npm run prepare:report && cucumber-js && node reports/generate-report.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "dotenv": "^17.4.2",
+    "fs": "^0.0.1-security"
+  }
+}

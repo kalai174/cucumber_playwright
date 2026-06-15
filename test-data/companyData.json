@@ -1,0 +1,10 @@
+{
+  "website": "https://defaultcompany.com",
+  "street": "100 Mount Road",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "postCode": "600100",
+  "description": "Default company description",
+  "industry": "Finance",
+  "employees": "1000"
+ }
