@@ -1,16 +1,17 @@
 module.exports = {
   default: {
-    require: [
-      'step-definitions/*.ts',
+    requireModule: ['ts-node/register'],
+      require: [
+      'step-definitions/*.steps.ts',
       'hooks/*.ts'
     ],
-    requireModule: ['ts-node/register'],
+    paths: ['features/*.feature'],
     format: [
       'progress',
       'json:reports/cucumber-report.json',
       'html:reports/cucumber-report.html'
     ],
-    publishQuiet: true,
+    dryRun: false,
     timeout: 60000
   }
 };

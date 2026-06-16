@@ -10,6 +10,7 @@
   },
   "scripts": {
     "prepare:report": "node reports/prepare-report.js",
+     "auth:setup": "npx ts-node auth/global.auth.ts",
     "test:cucumber": "cucumber-js",
     "report:generate": "node reports/generate-report.js",
     "test:report": "npm run prepare:report && cucumber-js && node reports/generate-report.js"

@@ -39,7 +39,7 @@ export default defineConfig({
     
     ignoreHTTPSErrors: true,
     storageState: 'playwright/.auth/user.json',
-    headless: true,
+    headless: false,
 
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
